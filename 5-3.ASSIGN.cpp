@@ -42,6 +42,9 @@ String::String(const String& str){
 /* compiler가 제공하는 assignment 연산자 사용시 문제가 무엇인지를 파악하는 것이 필요
 String & String:: operator = (const String & str){
     cout<<"[재정의한 assign 함수호출]"<<endl;
+    // 추가설명
+    this->string = new char[strlen(str.string)+1]; 
+    // 추가설명 끝
     string = new char[strlen(str.string)+1];
     strcpy_s(string, strlen(str.string)+1,str.string);
     return *this;

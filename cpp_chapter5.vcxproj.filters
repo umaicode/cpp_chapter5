@@ -60,6 +60,9 @@
     <ClCompile Include="testQueue2019.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="student_object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="5장-1.DATE1.h">
